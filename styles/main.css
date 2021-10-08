@@ -1,0 +1,41 @@
+body{
+    background-color: #621402;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+.header-logo{
+    margin-right: 57px;
+}
+.header-menu_link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #ffffff;
+    margin-right: 25px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+.user-avatar{
+    margin-left: 11px;  
+}
+.user-avatar img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
